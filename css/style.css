@@ -1,0 +1,33 @@
+*,
+body,
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    width: 300px;
+    min-width: 290px;
+    height: 100vh;
+    border-right: 2px solid black;
+    background-color: white;
+}
+
+#main-doc {
+    position: absolute;
+    top: 0;
+    left: 310px;
+    margin-left: 20px;
+    width: 70%;
+    padding-left: 50rem;
+    padding: 20px;
+}
